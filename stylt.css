@@ -30,6 +30,9 @@ html {
     opacity: 0;
 }
 
+.green {
+    color: green;
+}
 
 .item {
     width: 120px;
