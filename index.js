@@ -26,6 +26,8 @@ $(document).ready(function () {
         var user = this.value;
         if (user.toLowerCase() === memberMap[answer].text.toLowerCase()) {
             $(".answer").text(user + " ถูกต้อง!");
+            $(".answer").addClass("green");
+            $(".item").addClass("hide");
         } else {
             $(".answer").text("ยังไม่ถูกต้อง");
         }
